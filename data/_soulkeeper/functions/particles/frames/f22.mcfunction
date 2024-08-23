@@ -1,0 +1,1 @@
+particle enchant ^-0.313 ^-0.290 ^-0.194 0 0 0 0 1 force @a
