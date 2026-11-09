@@ -3,7 +3,7 @@ tellraw @s {"text": "Racoonia's soulkeeper | About","color": "gray"}
 tellraw @s {"text": "                                ","color": "gray","strikethrough": true}
 
 # TODO: Write your about text here.
-tellraw @s {"text": "No about section yet.","color": "gray"}
+tellraw @s {"text": "A gravestone datapack with a soul theme.","color": "gray"}
 
 tellraw @s {"text": "                                ","color": "gray","strikethrough": true}
 
