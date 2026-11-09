@@ -1,5 +1,5 @@
 tellraw @s {"text": "                                ","color": "gray","strikethrough": true}
-tellraw @s {"text": "Racoonia's soulkeeper | Config","color": "gray"}
+tellraw @s {"text": "Soulkeeper | Config","color": "gray"}
 tellraw @s {"text": "                                ","color": "gray","strikethrough": true}
 
 # TODO: Put your config here
@@ -13,7 +13,3 @@ tellraw @s {"text": "UNINSTALL DATAPACK","color": "red","hover_event": {"action"
 tellraw @s {"text": "                                ","color": "gray","strikethrough": true}
 
 function _racoonia_soulkeeper:sounds/click
-
-# Reset Trigger
-scoreboard players set @s racoonia_soulkeeper.config 0
-scoreboard players enable @s racoonia_soulkeeper.config

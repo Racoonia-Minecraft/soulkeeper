@@ -1,9 +1,9 @@
 {
 	"display": {
-		"title": "Racoonia's soulkeeper",
-		"description": "Racoonia's soulkeeper Datapack",
+		"title": "Soulkeeper",
+		"description": "A gravestone datapack with a soul theme.",
 		"icon": {
-			"id": "compass"
+			"id": "minecraft:soul_lantern"
 		},
 		"announce_to_chat": false,
 		"show_toast": false
