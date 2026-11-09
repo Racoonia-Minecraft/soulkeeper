@@ -6,6 +6,12 @@ function _racoonia_soulkeeper:sounds/click
 scoreboard objectives add racoonia_soulkeeper.installed dummy
 scoreboard players set #racoonia_soulkeeper racoonia_soulkeeper.installed 1
 
+# Config
+scoreboard objectives add racoonia_soulkeeper.config dummy
+execute unless score #grave_type racoonia_soulkeeper.config matches -1.. run scoreboard players set #grave_type racoonia_soulkeeper.config 1
+execute unless score #store_xp racoonia_soulkeeper.config matches -1.. run scoreboard players set #store_xp racoonia_soulkeeper.config 1
+execute unless score #despawn_time racoonia_soulkeeper.config matches -1.. run scoreboard players set #despawn_time racoonia_soulkeeper.config 15
+
 # Experience
 scoreboard objectives add racoonia_soulkeeper.xp dummy
 

@@ -5,6 +5,9 @@ function _racoonia_soulkeeper:sounds/click
 # Remove Install Flag
 scoreboard objectives remove racoonia_soulkeeper.installed
 
+# Config
+scoreboard objectives remove racoonia_soulkeeper.config
+
 # Experience
 scoreboard objectives remove racoonia_soulkeeper.xp
 
