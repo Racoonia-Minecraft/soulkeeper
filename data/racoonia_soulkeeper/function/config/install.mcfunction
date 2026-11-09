@@ -6,6 +6,9 @@ function _racoonia_soulkeeper:sounds/click
 scoreboard objectives add racoonia_soulkeeper.installed dummy
 scoreboard players set #racoonia_soulkeeper racoonia_soulkeeper.installed 1
 
+# Experience
+scoreboard objectives add racoonia_soulkeeper.xp dummy
+
 # Animation
 scoreboard objectives add racoonia_soulkeeper.animation_frame dummy
 scoreboard objectives add racoonia_soulkeeper.particle_frame dummy

@@ -4,10 +4,10 @@ tellraw @a [{"text":"Racoonia's Soulkeeper","color": "green"},{"text": " loaded.
 scoreboard objectives add racoonia_soulkeeper.installed dummy
 execute unless score #racoonia_soulkeeper racoonia_soulkeeper.installed matches 1 run function racoonia_soulkeeper:config/install
 
-# Reload 1 Second Loop
-schedule clear _racoonia_soulkeeper:loops/1_second
-function _racoonia_soulkeeper:loops/1_second
-
 # Reload Animation Loop
 schedule clear _racoonia_soulkeeper:loops/animation
 function _racoonia_soulkeeper:loops/animation
+
+# Reload Sound Loop
+schedule clear _racoonia_soulkeeper:loops/sound
+function _racoonia_soulkeeper:loops/sound

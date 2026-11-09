@@ -69,3 +69,5 @@ execute if score @s racoonia_soulkeeper.particle_frame matches 67 run function _
 
 scoreboard players add @s racoonia_soulkeeper.particle_frame 1
 execute if score @s racoonia_soulkeeper.particle_frame matches 68.. run scoreboard players set @s racoonia_soulkeeper.particle_frame 0
+
+execute if predicate _racoonia_soulkeeper:soul_particle run particle soul ~ ~1 ~ .7 .5 .7 0 1
